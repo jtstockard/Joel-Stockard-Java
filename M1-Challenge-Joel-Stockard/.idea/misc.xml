@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Exercise1/ConverterInterface/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise2/CalculatorObject/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise3/IceCreamClassDesign/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise4/RPGInheritance/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise5/CustomerComposition/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
