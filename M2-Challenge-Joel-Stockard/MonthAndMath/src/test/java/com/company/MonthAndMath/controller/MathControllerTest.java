@@ -156,7 +156,7 @@ public class MathControllerTest {
     @Test
     public void shouldReturn422ErrorForMethodArgumentNotValidExceptionMultiplyMethod() throws Exception {
         Map<String, String> input = new HashMap<>();
-
+        input.put("operand1", "ten");
         input.put("operand2", "9");
 
         String inputMultiply = mapper.writeValueAsString(input);

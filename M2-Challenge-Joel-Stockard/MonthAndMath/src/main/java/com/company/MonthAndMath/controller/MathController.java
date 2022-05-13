@@ -40,7 +40,7 @@ public class MathController {
         @ResponseStatus(value = HttpStatus.CREATED)
         public MathSolution createMultiplyNumber(@RequestBody @Valid MathSolution mathSolution) {
             mathSolution.setOperation("multiply");
-            int answer = mathSolution.getOperand1() * mathSolution.getOperand2();
+            Integer answer = mathSolution.getOperand1() * mathSolution.getOperand2();
             mathSolution.setAnswer(answer);
             if (mathSolution.getOperand1() == null || mathSolution.getOperand2() == null) {
                 throw new ResponseStatusException(HttpStatus.UNPROCESSABLE_ENTITY, "Must be a number");
@@ -53,7 +53,7 @@ public class MathController {
         @ResponseStatus(value = HttpStatus.CREATED)
         public MathSolution createDivideNumber(@RequestBody @Valid MathSolution mathSolution) {
             mathSolution.setOperation("divide");
-            int answer = mathSolution.getOperand1() / mathSolution.getOperand2();
+            Integer answer = mathSolution.getOperand1() / mathSolution.getOperand2();
             mathSolution.setAnswer(answer);
             if (mathSolution.getOperand2() == 0) {
                 throw new ResponseStatusException(HttpStatus.UNPROCESSABLE_ENTITY, "Cannot divide by 0");
