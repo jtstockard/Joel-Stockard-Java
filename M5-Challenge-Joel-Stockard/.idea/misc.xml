@@ -3,11 +3,10 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/Exercise1/ConverterInterface/pom.xml" />
-        <option value="$PROJECT_DIR$/Exercise2/CalculatorObject/pom.xml" />
-        <option value="$PROJECT_DIR$/Exercise3/IceCreamClassDesign/pom.xml" />
-        <option value="$PROJECT_DIR$/Exercise4/RPGInheritance/pom.xml" />
-        <option value="$PROJECT_DIR$/Exercise5/CustomerComposition/pom.xml" />
+        <option value="$PROJECT_DIR$/starter/gamestore/pom.xml" />
+        <option value="$PROJECT_DIR$/service-registry/pom.xml" />
+        <option value="$PROJECT_DIR$/gamestore-catalog/pom.xml" />
+        <option value="$PROJECT_DIR$/gamestore-invoicing/pom.xml" />
       </list>
     </option>
   </component>
